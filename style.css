@@ -3847,6 +3847,7 @@ object {
   line-height: 1;
   margin-bottom: 28px;
 }
+
 .icon-box h5 {
   margin-bottom: 15px;
   transition: all 0.3s linear;
@@ -3904,6 +3905,7 @@ object {
 }
 .icon-box--bg-img:hover {
   background-color: #1a1a1a;
+  
 }
 .icon-box--bg-img:hover h5 {
   color: #fff;
@@ -3968,6 +3970,7 @@ object {
 .icon-box--bg-color .icon-main img {
   max-width: 60px;
 }
+
 .icon-box--bg-color.icon-box--icon-left .icon-main {
   float: left;
 }
