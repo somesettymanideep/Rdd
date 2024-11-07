@@ -7239,10 +7239,10 @@ section {
   background-image: url('images/page-header/bg-pheader.jpg');
 }
 .page-header-contact {
-  background-image: url('images/page-header/pheader-contact.jpg');
+  background-image: url('images/bg/contact.png');
 }
 .pheader-service-detail1 {
-  background-image: url('images/page-header/pheader-service-detail1.jpg');
+  background-image: url('images/blog/construction.png');
 }
 .pheader-team {
   background-image: url('images/page-header/pheader-team.jpg');
@@ -7266,7 +7266,7 @@ section {
     background-image: url(images/page-header/pheader-faq.jpg);
 }
 .pheader-portfolio {
-    background-image: url(images/page-header/pheader-portfolio.jpg);
+    background-image: url(images/bg/projects.png);
 }
 .pheader-portfolio-detail {
     background-image: url(images/page-header/pheader-single-portfolio.jpg);
@@ -10330,4 +10330,7 @@ ul.style-default li:last-child, ol.style-default li:last-child {
 .footer-logo{
   border-radius: 5px;
 
+}
+.sid-logo{
+  border-radius: 5px;
 }
