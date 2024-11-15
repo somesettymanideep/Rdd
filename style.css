@@ -3920,6 +3920,10 @@ object {
   opacity: 0.9;
   color: #fff;
 }
+.icon-box--bg-img:hover .icon-main svg {
+  opacity: 0.9;
+  fill:#fff;
+}
 .icon-box--bg-img:hover .btn-details:before {
   background: #505050;
 }
@@ -10333,4 +10337,22 @@ ul.style-default li:last-child, ol.style-default li:last-child {
 }
 .sid-logo{
   border-radius: 5px;
+}
+.member-item-3 {
+  display: table;
+  transition: all 0.3s linear;
+  -webkit-transition: all 0.3s linear;
+  -moz-transition: all 0.3s linear;
+  -o-transition: all 0.3s linear;
+  -ms-transition: all 0.3s linear;
+}
+.member-item-3 > div {
+  width: 50%;
+  display: table-cell;
+  vertical-align: top;
+}
+.member-item-3 .mem-info {
+  background: #fff;
+  padding: 30px;
+  vertical-align: middle;
 }

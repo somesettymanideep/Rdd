@@ -470,10 +470,11 @@
         nav:false,
         dots: true,
         loop:true,
+        margin: 40,
         navText: ['<i class="ot-flaticon-left-arrow"></i>', '<i class="ot-flaticon-right-arrow"></i>'],
         responsive:{
             1200:{
-                items:5
+                items:3
             },
             767:{
                 items:2
