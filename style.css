@@ -4586,7 +4586,7 @@ object {
 }
 .ot-tabs .tab-link {
   font-family: "Titillium Web", sans-serif;
-  min-width: 176px;
+  min-width: 146px;
   margin-right: 20px;
   padding: 12px 0;
   float: left;
@@ -10355,4 +10355,12 @@ ul.style-default li:last-child, ol.style-default li:last-child {
   background: #fff;
   padding: 30px;
   vertical-align: middle;
+}
+.cta-projects{
+  font-size: 36px;
+}
+[class^="ot-flaticon-"]:before, [class*=" ot-flaticon-"]:before, [class^="ot-flaticon-"]:after, [class*=" ot-flaticon-"]:after {
+  font-family: Flaticon;
+  font-size: 60px;
+  font-style: normal;
 }
