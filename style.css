@@ -7298,11 +7298,12 @@ section {
 .contact-right {
     padding-left: 75px;
     padding-right: 40px;
-    background-image: url('images/bg1-contact.jpg');
+    /* background-image: url('images/bg1-contact.jpg'); */
+    background-color:#e8e8e8;
     background-position: center center;
     background-repeat: no-repeat;
     background-size: cover;
-    color: #A3A3A3;
+    color: #000;
 }
 .contact-right .ot-heading {
     padding-top: 81px;
@@ -8867,6 +8868,10 @@ ul.style-default li:last-child, ol.style-default li:last-child {
     width: 150px;
     height: 91px;
 }
+.logo-size-small {
+    width: 110px;
+   
+}
 .main-header-slight {
     position: relative;
 }
@@ -10122,6 +10127,7 @@ ul.style-default li:last-child, ol.style-default li:last-child {
     padding-bottom: 50px;
     background-color: #e8e8e8;
     color: #000;
+    border-top:2px solid #000;
 }
 .widget-footer ul {
     margin: 0;
@@ -10372,4 +10378,19 @@ ul.style-default li:last-child, ol.style-default li:last-child {
 
 .bg-theme-color{
   background-color:#e8e8e8;
+}
+.ot-heading h2{
+  color:#000;
+}
+.info-text{
+  color:#000;
+}
+.contact-right .contact-info h6 {
+    color: #000;
+}
+.contact-right .contact-info i:before {
+  color:#000;
+}
+.contact-right .contact-info, .contact-right .contact-info a {
+    color: #000!important;
 }
