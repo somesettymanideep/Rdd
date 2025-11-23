@@ -10120,8 +10120,8 @@ ul.style-default li:last-child, ol.style-default li:last-child {
 .site-footer {
     padding-top: 100px;
     padding-bottom: 50px;
-    background-color: #1A1A1A;
-    color: #A3A3A3;
+    background-color: #e8e8e8;
+    color: #000;
 }
 .widget-footer ul {
     margin: 0;
@@ -10129,7 +10129,7 @@ ul.style-default li:last-child, ol.style-default li:last-child {
     list-style: none;
 }
 .widget-footer a {
-    color: #A3A3A3;
+    color: #000;
     font-family: "Raleway",Sans-serif;
 }
 .widget-footer li {
@@ -10168,6 +10168,7 @@ ul.style-default li:last-child, ol.style-default li:last-child {
     color: #fff;
     text-align: center;
     margin-right: 11px;
+    background-color: #444;
 }
 .footer-social a:hover, .list-social a:hover {
     background-color: #444;
@@ -10363,4 +10364,12 @@ ul.style-default li:last-child, ol.style-default li:last-child {
   font-family: Flaticon;
   font-size: 60px;
   font-style: normal;
+}
+
+.widget-footer h6{
+  color:#000;
+}
+
+.bg-theme-color{
+  background-color:#e8e8e8;
 }
