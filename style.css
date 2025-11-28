@@ -10295,6 +10295,9 @@ ul.style-default li:last-child, ol.style-default li:last-child {
   .sm-hidden {
     display: none;
   }
+  .defaultimg{
+    background-size:100%!important ;
+  }
 }
 @media (max-width: 1299px) {
   blockquote {
