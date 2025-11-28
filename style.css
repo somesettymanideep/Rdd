@@ -1813,7 +1813,7 @@ a:hover, a:active {
 
 @media screen and (min-width: 1024px) {
   .is-stuck {
-    background-color: #1a1a1a;
+    background-color: #e8e8e8;
     -webkit-box-shadow: 4px 4px 30px 0px rgba(42, 67, 113, 0.15);
     -moz-box-shadow: 4px 4px 30px 0px rgba(42, 67, 113, 0.15);
     box-shadow: 4px 4px 30px 0px rgba(42, 67, 113, 0.15);
@@ -1824,10 +1824,10 @@ a:hover, a:active {
     transform: translateY(0);
   }
   .is-stuck .main-navigation ul.menu > li > a {
-    color: #fff;
+    color: #000;
   }
   .is-stuck .main-navigation ul.menu > li > a:after {
-    color: #fff;
+    color: #000;
   }
   .is-stuck .main-navigation ul.menu > li > a:before {
     background: #fff;
