@@ -23,7 +23,9 @@
 </head>
 
 <body>
-    <div id="royal_preloader"></div>
+<div id="preloader">
+    <div class="loader"></div>
+</div>
     <div id="page" class="site">
         <header id="site-header" class="site-header header-transparent">
             <!-- Main Header start -->
@@ -386,17 +388,12 @@
     <script src="js/easypiechart.min.js"></script>
     <script src="js/jquery.countdown.min.js"></script>
     <script src="js/scripts.js"></script>
-    <script src="js/royal_preloader.min.js"></script>
+
     <script>
-        window.jQuery = window.$ = jQuery;  
-        (function($) { "use strict";
-            //Preloader
-            Royal_Preloader.config({
-                mode           :   'progress',
-                background     :   '#1a1a1a',
-            });
-        })(jQuery);
-    </script>  
+    window.addEventListener("load", function () {
+        document.getElementById("preloader").style.display = "none";
+    });
+</script>
 </body>
 
 <!-- Mirrored from templates.thememodern.com/theratio/servcies-detail-3.html by HTTrack Website Copier/3.x [XR&CO'2014], Wed, 30 Oct 2024 02:20:41 GMT -->
